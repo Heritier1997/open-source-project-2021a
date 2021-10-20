@@ -1,4 +1,4 @@
-package com.hauschildt;
+package com.HeritierOtiom;
 
 public enum PizzaItem {
     PEPPERONI("Pepperoni Pizza", 13.49, "Your choice of crust covered " +

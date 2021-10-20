@@ -1,6 +1,4 @@
-package com.hauschildt;
-
-
+package com.HeritierOtiom;
 
 public class Main {
 

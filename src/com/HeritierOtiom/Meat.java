@@ -1,4 +1,4 @@
-package com.hauschildt;
+package com.HeritierOtiom;
 
 public enum Meat {
     PEPPERONI("Pepperoni")

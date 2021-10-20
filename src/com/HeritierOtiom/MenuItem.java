@@ -1,4 +1,4 @@
-package com.hauschildt;
+package com.HeritierOtiom;
 
 public abstract class MenuItem {
     private String name;

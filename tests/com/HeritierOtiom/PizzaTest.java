@@ -1,9 +1,10 @@
-package com.hauschildt;
+package com.HeritierOtiom;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class PizzaTest {
     private Pizza pizza;
@@ -65,12 +66,13 @@ class PizzaTest {
 
     @Test
     void getSauce() {
-        fail();
+        assertEquals(Pizza.DEFAULT_SAUCE, pizza.getSauce());
     }
 
     @Test
     void setSauce() {
-        fail();
+        pizza.setSauce(Sauce.BBQ);
+        assertEquals(Sauce.BBQ, pizza.getSauce());
     }
 
     @Test

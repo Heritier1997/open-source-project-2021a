@@ -1,4 +1,4 @@
-package com.hauschildt;
+package com.HeritierOtiom;
 
 public class Order implements OrderOperations {
     private MenuItem[] items;
